@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Champions Youth Soccer Academy</title>
+  <meta name="description" content="Modern, minimal landing page for a kids soccer academy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand__mark" aria-hidden="true">C</span>
+        <span class="brand__text">
+          <span class="brand__name">Champions Youth</span>
+          <span class="brand__sub">Soccer Academy</span>
+        </span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#vision">Vision &amp; Mission</a>
+        <a class="nav__link" href="#programs">Programs</a>
+        <a class="nav__link" href="#equipment">Equipment</a>
+        <a class="nav__link" href="#pricing">Pricing</a>
+        <a class="nav__link" href="#location">Location</a>
+        <a class="nav__link" href="#rules">Rules</a>
+      </nav>
+
+      <div class="nav__cta">
+        <a class="btn btn--primary" href="#location">Get Started</a>
+      </div>
+
+      <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="mobileMenu" hidden>
+      <div class="container nav__mobileInner">
+        <a class="nav__mLink" href="#about">About</a>
+        <a class="nav__mLink" href="#vision">Vision &amp; Mission</a>
+        <a class="nav__mLink" href="#programs">Programs</a>
+        <a class="nav__mLink" href="#equipment">Equipment</a>
+        <a class="nav__mLink" href="#pricing">Pricing</a>
+        <a class="nav__mLink" href="#location">Location</a>
+        <a class="nav__mLink" href="#rules">Rules</a>
+        <a class="btn btn--primary nav__mCta" href="#location">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero__bg" role="img" aria-label="Children playing soccer"></div>
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <div class="pill reveal">
+          <span>Building Future Champions</span>
+        </div>
+
+        <h1 class="hero__title reveal" style="--d: .08s;">
+          Champions Youth<br />Soccer Academy
+        </h1>
+
+        <p class="hero__lead reveal" style="--d: .16s;">
+          Where passion meets discipline. Join us in nurturing the next generation of soccer stars through expert coaching, teamwork, and fun.
+        </p>
+
+        <div class="hero__actions reveal" style="--d: .24s;">
+          <a class="btn btn--accent" href="#programs">
+            Explore Programs
+            <span class="btn__icon" aria-hidden="true">
+              <!-- arrow-right -->
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14" />
+                <path d="m13 5 7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+          <a class="btn btn--ghost" href="#location">Find Us</a>
+        </div>
+      </div>
+
+      <a class="scroll" href="#about" aria-label="Scroll to content">
+        <span class="scroll__mouse" aria-hidden="true"><span class="scroll__dot"></span></span>
+      </a>
+    </section>
+
+    <!-- ABOUT / INTRODUCTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="tag tag--green">About Us</div>
+          <h2 class="section__title">Welcome to Our Soccer Family</h2>
+          <p class="section__sub">
+            Champions Youth Soccer Academy is dedicated to providing young athletes with a comprehensive soccer education.
+            We believe in developing not just skilled players, but well-rounded individuals who understand the values of
+            sportsmanship, dedication, and respect.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--soft reveal" style="--d:.05s;">
+            <div class="iconBadge">
+              <!-- trophy -->
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 21h8"/>
+                <path d="M12 17v4"/>
+                <path d="M7 4h10"/>
+                <path d="M17 4v5a5 5 0 0 1-10 0V4"/>
+                <path d="M5 6a4 4 0 0 0 2 7"/>
+                <path d="M19 6a4 4 0 0 1-2 7"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Discipline</h3>
+            <p class="card__text">Building character through structured training and commitment</p>
+          </article>
+
+          <article class="card card--soft reveal" style="--d:.12s;">
+            <div class="iconBadge">
+              <!-- users -->
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Teamwork</h3>
+            <p class="card__text">Learning the power of collaboration and mutual support</p>
+          </article>
+
+          <article class="card card--soft reveal" style="--d:.19s;">
+            <div class="iconBadge">
+              <!-- heart -->
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Fun</h3>
+            <p class="card__text">Creating joyful memories while developing skills</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISION -->
+    <section class="section section--gradient" id="vision">
+      <div class="glow glow--tl" aria-hidden="true"></div>
+      <div class="glow glow--br" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="split">
+          <div class="reveal">
+            <div class="pill pill--glass">
+              <!-- target -->
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="6"/>
+                <circle cx="12" cy="12" r="2"/>
+              </svg>
+              <span>Our Vision</span>
+            </div>
+            <h2 class="section__title section__title--white">Shaping Tomorrow's Leaders Through Soccer</h2>
+            <p class="section__sub section__sub--white">
+              To be the premier youth soccer academy recognized for developing exceptional athletes who excel
+              both on and off the field, inspiring a lifelong love for the beautiful game.
+            </p>
+            <p class="mutedWhite">
+              We envision a community where every child has the opportunity to discover their potential,
+              build lasting friendships, and grow into confident, responsible individuals through the
+              transformative power of soccer.
+            </p>
+          </div>
+
+          <figure class="media reveal" style="--d:.15s;">
+            <img
+              src="https://images.unsplash.com/photo-1600130202712-fd01014ffa79?auto=format&fit=crop&w=1200&q=80"
+              alt="Soccer field"
+              loading="lazy"
+            />
+            <span class="media__accent" aria-hidden="true"></span>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSION -->
+    <section class="section">
+      <div class="container container--narrow">
+        <div class="section__head reveal">
+          <div class="pill pill--orange">
+            <!-- sparkles -->
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18l-1.5-4.5L3 12l4.5-1.5L9 6l1.5 4.5L15 12l-4.5 1.5L9 18z"/>
+              <path d="M19 13l-1-3-3-1 3-1 1-3 1 3 3 1-3 1-1 3z"/>
+            </svg>
+            <span>Our Mission</span>
+          </div>
+          <h2 class="section__title">Empowering Young Athletes to Reach Their Full Potential</h2>
+        </div>
+
+        <div class="callout reveal" style="--d:.08s;">
+          <p>
+            Our mission is to provide high-quality soccer training in a supportive and inclusive environment,
+            fostering <strong class="tx-green">technical excellence</strong>,
+            <strong class="tx-blue"> physical fitness</strong>, and
+            <strong class="tx-orange"> personal growth</strong>. We are committed to
+            developing confident, disciplined, and compassionate individuals who embody the true spirit of the game.
+          </p>
+        </div>
+
+        <div class="grid grid--3 mt-24">
+          <div class="box box--green reveal" style="--d:.04s;">
+            <div class="box__kpi">Excellence</div>
+            <div class="box__text">Striving for the highest standards in everything we do</div>
+          </div>
+          <div class="box box--blue reveal" style="--d:.10s;">
+            <div class="box__kpi">Integrity</div>
+            <div class="box__text">Playing with honesty, respect, and sportsmanship</div>
+          </div>
+          <div class="box box--orange reveal" style="--d:.16s;">
+            <div class="box__kpi">Growth</div>
+            <div class="box__text">Continuous improvement on and off the field</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="tag tag--blue">Our Objectives</div>
+          <h2 class="section__title">What We Aim to Achieve</h2>
+          <p class="section__sub">Our structured program is designed with clear objectives to ensure holistic development</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card reveal" style="--d:.03s;"><h3 class="card__title">Develop Technical Skills</h3><p class="card__text">Master ball control, passing, shooting, and tactical awareness through progressive training</p></article>
+          <article class="card reveal" style="--d:.06s;"><h3 class="card__title">Enhance Physical Fitness</h3><p class="card__text">Build strength, agility, endurance, and coordination through age-appropriate exercises</p></article>
+          <article class="card reveal" style="--d:.09s;"><h3 class="card__title">Foster Team Spirit</h3><p class="card__text">Cultivate communication, cooperation, and mutual respect among teammates</p></article>
+          <article class="card reveal" style="--d:.12s;"><h3 class="card__title">Build Confidence</h3><p class="card__text">Encourage self-belief and resilience through positive reinforcement and achievement</p></article>
+          <article class="card reveal" style="--d:.15s;"><h3 class="card__title">Promote Healthy Lifestyle</h3><p class="card__text">Instill the value of regular physical activity and wellness habits</p></article>
+          <article class="card reveal" style="--d:.18s;"><h3 class="card__title">Prepare for Competition</h3><p class="card__text">Equip players with the skills and mindset to excel in competitive environments</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING PROGRAMS -->
+    <section class="section" id="programs">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="tag tag--green">Training Programs</div>
+          <h2 class="section__title">Programs Tailored to Every Age</h2>
+          <p class="section__sub">Age-appropriate training designed to maximize development and enjoyment</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="program reveal" style="--d:.04s;">
+            <div class="program__head program__head--sun">
+              <div class="program__age">5-7 Years</div>
+              <h3 class="program__name">Little Stars</h3>
+              <div class="program__meta">2 sessions per week · 60 minutes</div>
+            </div>
+            <div class="program__body">
+              <h4 class="program__label">Focus Areas</h4>
+              <ul class="list">
+                <li>Basic ball control</li>
+                <li>Fun games</li>
+                <li>Social skills</li>
+                <li>Introduction to teamwork</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="program reveal" style="--d:.10s;">
+            <div class="program__head program__head--green">
+              <div class="program__age">8-10 Years</div>
+              <h3 class="program__name">Rising Champions</h3>
+              <div class="program__meta">3 sessions per week · 75 minutes</div>
+            </div>
+            <div class="program__body">
+              <h4 class="program__label">Focus Areas</h4>
+              <ul class="list">
+                <li>Technical skills</li>
+                <li>Tactical awareness</li>
+                <li>Physical conditioning</li>
+                <li>Team coordination</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="program reveal" style="--d:.16s;">
+            <div class="program__head program__head--violet">
+              <div class="program__age">11-14 Years</div>
+              <h3 class="program__name">Elite Squad</h3>
+              <div class="program__meta">4 sessions per week · 90 minutes</div>
+            </div>
+            <div class="program__body">
+              <h4 class="program__label">Focus Areas</h4>
+              <ul class="list">
+                <li>Advanced techniques</li>
+                <li>Strategic play</li>
+                <li>Strength training</li>
+                <li>Competition preparation</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="schedule reveal" style="--d:.08s;">
+          <div class="schedule__text">
+            <h3 class="schedule__title">Weekly Schedule</h3>
+            <div class="schedule__rows">
+              <div class="schedRow"><span class="schedBadge schedBadge--green">M/W</span><div><div class="schedRow__title">Weekday Sessions</div><div class="schedRow__sub">After school training (4:00 PM - 6:00 PM)</div></div></div>
+              <div class="schedRow"><span class="schedBadge schedBadge--blue">Sat</span><div><div class="schedRow__title">Weekend Training</div><div class="schedRow__sub">Morning sessions (9:00 AM - 11:00 AM)</div></div></div>
+              <div class="schedRow"><span class="schedBadge schedBadge--orange">Sun</span><div><div class="schedRow__title">Match Days</div><div class="schedRow__sub">Friendly games & tournaments (Time varies)</div></div></div>
+            </div>
+          </div>
+          <div class="schedule__media">
+            <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1200&q=80" alt="Kids playing soccer" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUIPMENT -->
+    <section class="section section--alt" id="equipment">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="tag tag--orange">Equipment</div>
+          <h2 class="section__title">Official Team Equipment</h2>
+          <p class="section__sub">Every player receives high-quality gear to represent our academy with pride</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="equip reveal" style="--d:.04s;">
+            <div class="equip__head equip__head--red">
+              <h3 class="equip__title">Match Uniforms</h3>
+            </div>
+            <div class="equip__body">
+              <ul class="list">
+                <li>Official team jersey (home &amp; away)</li>
+                <li>Matching shorts</li>
+                <li>Team socks</li>
+                <li>Player number customization</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="equip reveal" style="--d:.10s;">
+            <div class="equip__head equip__head--teal">
+              <h3 class="equip__title">Training Uniforms</h3>
+            </div>
+            <div class="equip__body">
+              <ul class="list">
+                <li>Training jersey (2 sets)</li>
+                <li>Training shorts</li>
+                <li>Practice bibs</li>
+                <li>Warm-up jacket</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="equip reveal" style="--d:.16s;">
+            <div class="equip__head equip__head--blue">
+              <h3 class="equip__title">Travel Kit</h3>
+            </div>
+            <div class="equip__body">
+              <ul class="list">
+                <li>Team backpack</li>
+                <li>Water bottle</li>
+                <li>Towel</li>
+                <li>Equipment bag</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="note note--info reveal" style="--d:.08s;">
+          <h4>Additional Equipment Needed</h4>
+          <p>Players are required to bring their own:</p>
+          <div class="note__grid">
+            <span>Soccer cleats (appropriate for field type)</span>
+            <span>Shin guards (mandatory for all sessions)</span>
+            <span>Personal soccer ball (size 4 or 5)</span>
+            <span>Appropriate athletic wear</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="tag tag--green">Investment</div>
+          <h2 class="section__title">Transparent Pricing</h2>
+          <p class="section__sub">Affordable excellence for every aspiring champion</p>
+        </div>
+
+        <div class="grid grid--2 grid--tight">
+          <article class="price reveal" style="--d:.04s;">
+            <div class="price__head">
+              <div>
+                <h3 class="price__title">Registration Fee</h3>
+                <div class="price__sub">One-time payment</div>
+              </div>
+            </div>
+            <div class="price__value">$150</div>
+            <p class="price__desc">Covers initial setup, uniforms, and welcome kit</p>
+            <div class="price__note">
+              <strong>Includes:</strong> Official team uniforms, player ID card, training materials, and academy welcome package
+            </div>
+          </article>
+
+          <article class="price price--best reveal" style="--d:.10s;">
+            <div class="price__badge">BEST VALUE</div>
+            <div class="price__head">
+              <div>
+                <h3 class="price__title">Monthly Fee</h3>
+                <div class="price__sub">Recurring payment</div>
+              </div>
+            </div>
+            <div class="price__value">$120</div>
+            <p class="price__desc">Full access to all training programs and facilities</p>
+            <div class="price__note">
+              <strong>Flexible options:</strong> Pay monthly or save 10% with quarterly payment ($324 per quarter)
+            </div>
+          </article>
+        </div>
+
+        <div class="included reveal" style="--d:.16s;">
+          <h3 class="included__title">What's Included in Your Monthly Fee</h3>
+          <div class="included__grid">
+            <div class="tick">Professional coaching staff</div>
+            <div class="tick">All training equipment provided</div>
+            <div class="tick">Official team uniforms</div>
+            <div class="tick">Match day participation</div>
+            <div class="tick">Progress tracking &amp; reports</div>
+            <div class="tick">Access to academy facilities</div>
+            <div class="tick">Tournament entry fees</div>
+            <div class="tick">Parent communication portal</div>
+          </div>
+          <div class="included__foot">
+            <strong>Family Discount:</strong> 15% off for siblings enrolled in the program
+          </div>
+        </div>
+
+        <p class="fineprint reveal" style="--d:.22s;">* Financial assistance is available for qualifying families. Contact us for more information.</p>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="section section--gradient" id="location">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="tag tag--glass">Find Us</div>
+          <h2 class="section__title section__title--white">Visit Our Facility</h2>
+          <p class="section__sub section__sub--white">Located at the state-of-the-art Greenfield Sports Complex</p>
+        </div>
+
+        <div class="grid grid--4">
+          <div class="contactCard reveal" style="--d:.03s;"><h3>Address</h3><p><strong>123 Champions Way, Greenfield Sports Complex</strong><br/><span>Riverside, CA 92501</span></p></div>
+          <div class="contactCard reveal" style="--d:.07s;"><h3>Phone</h3><p><strong>(555) 123-4567</strong><br/><span>Mon-Sat: 9:00 AM - 6:00 PM</span></p></div>
+          <div class="contactCard reveal" style="--d:.11s;"><h3>Email</h3><p><strong>info@championsyouthsoccer.com</strong><br/><span>We reply within 24 hours</span></p></div>
+          <div class="contactCard reveal" style="--d:.15s;"><h3>Training Hours</h3><p><strong>Weekdays: 4:00 PM - 7:00 PM</strong><br/><span>Weekends: 9:00 AM - 1:00 PM</span></p></div>
+        </div>
+
+        <div class="mapCard reveal" style="--d:.18s;">
+          <div class="mapCard__inner">
+            <div class="mapCard__pin" aria-hidden="true">📍</div>
+            <h3>Greenfield Sports Complex</h3>
+            <p>123 Champions Way, Riverside, CA 92501</p>
+            <a class="btn btn--primary" href="#" onclick="return false;">Get Directions</a>
+          </div>
+        </div>
+
+        <div class="grid grid--3 mt-24">
+          <div class="metric reveal" style="--d:.22s;"><div class="metric__n">3</div><div class="metric__t">Full-Size Fields</div></div>
+          <div class="metric reveal" style="--d:.26s;"><div class="metric__n">200+</div><div class="metric__t">Free Parking Spaces</div></div>
+          <div class="metric reveal" style="--d:.30s;"><div class="metric__n">24/7</div><div class="metric__t">Security &amp; Lighting</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPONSORS -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="tag tag--purple">Our Partners</div>
+          <h2 class="section__title">Proud Sponsors</h2>
+          <p class="section__sub">We're grateful for the support of our community partners who make our mission possible</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="sponsor reveal" style="--d:.03s;"><div class="sponsor__logo sponsor__logo--blue">★</div><div class="sponsor__name">Premier Sports</div></div>
+          <div class="sponsor reveal" style="--d:.06s;"><div class="sponsor__logo sponsor__logo--green">★</div><div class="sponsor__name">Athletic Gear Pro</div></div>
+          <div class="sponsor reveal" style="--d:.09s;"><div class="sponsor__logo sponsor__logo--violet">★</div><div class="sponsor__name">Youth Foundation</div></div>
+          <div class="sponsor reveal" style="--d:.12s;"><div class="sponsor__logo sponsor__logo--orange">★</div><div class="sponsor__name">Fitness Plus</div></div>
+          <div class="sponsor reveal" style="--d:.15s;"><div class="sponsor__logo sponsor__logo--red">★</div><div class="sponsor__name">Community Bank</div></div>
+          <div class="sponsor reveal" style="--d:.18s;"><div class="sponsor__logo sponsor__logo--teal">★</div><div class="sponsor__name">Healthy Eats</div></div>
+        </div>
+
+        <div class="cta reveal" style="--d:.22s;">
+          <h3>Interested in Becoming a Sponsor?</h3>
+          <p>Partner with us to support youth development and gain visibility in our community</p>
+          <a class="btn btn--primary" href="#" onclick="return false;">Contact Us About Sponsorship</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RULES -->
+    <section class="section section--alt" id="rules">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="tag tag--red">Rules &amp; Regulations</div>
+          <h2 class="section__title">Academy Guidelines</h2>
+          <p class="section__sub">Clear expectations for a safe, respectful, and productive environment</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="ruleCard reveal" style="--d:.03s;">
+            <h3>1. Attendance &amp; Punctuality</h3>
+            <ul class="list">
+              <li>Players must attend at least 75% of scheduled training sessions</li>
+              <li>Arrive 10 minutes before session start time</li>
+              <li>Notify coaches 24 hours in advance for absences</li>
+              <li>Repeated tardiness may result in reduced playing time</li>
+            </ul>
+          </article>
+          <article class="ruleCard reveal" style="--d:.07s;">
+            <h3>2. Conduct &amp; Behavior</h3>
+            <ul class="list">
+              <li>Respect coaches, teammates, opponents, and officials at all times</li>
+              <li>No bullying, discrimination, or inappropriate language</li>
+              <li>Follow all instructions from coaching staff immediately</li>
+              <li>Demonstrate good sportsmanship in victory and defeat</li>
+            </ul>
+          </article>
+          <article class="ruleCard reveal" style="--d:.11s;">
+            <h3>3. Dress Code &amp; Equipment</h3>
+            <ul class="list">
+              <li>Wear official academy uniform for all matches and events</li>
+              <li>Shin guards are mandatory for all training and matches</li>
+              <li>Appropriate soccer cleats must be worn (no metal studs)</li>
+              <li>Remove all jewelry before training and matches</li>
+            </ul>
+          </article>
+          <article class="ruleCard reveal" style="--d:.15s;">
+            <h3>4. Safety &amp; Health</h3>
+            <ul class="list">
+              <li>Players must be physically fit and cleared by a doctor</li>
+              <li>Report all injuries immediately to coaching staff</li>
+              <li>Stay hydrated and bring water to all sessions</li>
+              <li>No training or playing while sick or injured</li>
+            </ul>
+          </article>
+          <article class="ruleCard reveal" style="--d:.19s;">
+            <h3>5. Parent &amp; Guardian Responsibilities</h3>
+            <ul class="list">
+              <li>Ensure timely drop-off and pick-up of players</li>
+              <li>Communicate any medical conditions or concerns</li>
+              <li>Support positive behavior and sportsmanship</li>
+              <li>Respect coaching decisions and academy policies</li>
+            </ul>
+          </article>
+          <article class="ruleCard reveal" style="--d:.23s;">
+            <h3>6. Academy Policies</h3>
+            <ul class="list">
+              <li>Zero-tolerance policy for violence or threats</li>
+              <li>Academy reserves the right to dismiss players for violations</li>
+              <li>All fees are non-refundable once the season begins</li>
+              <li>Photography/video for promotional use requires consent</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="notice reveal" style="--d:.26s;">
+          <h4>Important Notice</h4>
+          <p>
+            By enrolling in Champions Youth Soccer Academy, parents/guardians and players agree to abide by all academy rules and regulations.
+            Violations may result in suspension or dismissal from the program. We are committed to maintaining a safe, positive, and enriching
+            environment for all participants.
+          </p>
+        </div>
+
+        <div class="conduct reveal" style="--d:.30s;">
+          <h3>Our Code of Conduct</h3>
+          <p>"Play hard, play fair, play together. Respect the game, respect each other, respect yourself."</p>
+          <div class="chips">
+            <span>Excellence</span><span>Respect</span><span>Integrity</span><span>Teamwork</span><span>Sportsmanship</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3>Champions Youth Soccer Academy</h3>
+          <p>
+            Building future champions through excellence in soccer training, character development,
+            and community engagement. Join our family today!
+          </p>
+          <div class="footer__social" aria-label="Social">
+            <a href="#" onclick="return false;" aria-label="Facebook">f</a>
+            <a href="#" onclick="return false;" aria-label="Instagram">ig</a>
+            <a href="#" onclick="return false;" aria-label="Twitter">x</a>
+            <a href="#" onclick="return false;" aria-label="YouTube">yt</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact Us</h4>
+          <ul class="footer__contact">
+            <li><span>📍</span><span>123 Champions Way<br/>Riverside, CA 92501</span></li>
+            <li><span>📞</span><span>(555) 123-4567</span></li>
+            <li><span>✉️</span><span>info@championsyouthsoccer.com</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> Champions Youth Soccer Academy. All rights reserved.</p>
+        <div class="footer__policies">
+          <a href="#" onclick="return false;">Privacy Policy</a>
+          <a href="#" onclick="return false;">Terms of Service</a>
+          <a href="#" onclick="return false;">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
